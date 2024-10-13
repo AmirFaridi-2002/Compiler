@@ -8,13 +8,7 @@ The repository includes the following components:
 
 - **Grammar Definition**: The grammar for the custom language is implemented using ANTLR, defining the syntactic structure of the language.
 - **Lexical and Syntax Analysis**: ANTLR is used to generate a lexer and parser based on the defined grammar, allowing for the tokenization and syntactic analysis of source code.
-- **Name and Type Analysis**: Java is used to implement semantic checks, including name resolution and type analysis, ensuring the correctness of the program by enforcing scope and type rules.
-  
-## Usage
-
-The code is organized into modules, with each component residing in its own directory. The project can be built using a Java build tool like Maven or Gradle.
-
-To test the compiler, run the ANTLR-generated parser on sample input files, followed by name and type analysis in Java. Parameters and test cases can be configured in the project settings.
+- **Name and Type Analysis**: Java is used to implement semantic checks, including name resolution and type analysis, ensuring the correctness 
 
 ## About the Project
 
